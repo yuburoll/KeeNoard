@@ -1,0 +1,10 @@
+CUSTOM_MATRIX = lite
+DEFERRED_EXEC_ENABLE = yes
+ENCODER_ENABLE = yes
+
+MOUSEKEY_ENABLE = yes
+EXTRAKEY_ENABLE = yes
+CAPS_WORD_ENABLE = yes
+
+SRC += encoder.c
+SRC += matrix.c
