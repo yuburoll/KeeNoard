@@ -36,7 +36,7 @@ work in progress. sorry!
 
 You can see the images in the folder, which uploaded for build guides.
 
-This uses [qmk](https://qmk.fm/) to build the firmware. Copy "keenoard" folder which is in "firmware" directory to qmk_firmware\keyboards folder, and build it via qmk msys. Also, I'm working for the vial version.
+This uses [qmk](https://qmk.fm/) to build the firmware. Copy "keenoard" folder which is in "firmware" directory to "qmk_firmware\keyboards" folder, and build it via qmk msys. Also, I'm working for the vial version.
 
 
 
