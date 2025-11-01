@@ -36,8 +36,8 @@ edited matrix to active high, and edited encoder
 #include "encoder.h"
 #include "print.h"
 
-#define MATRIX_IO_READ_DELAY 10
-#define MATRIX_IO_CLEAR_DELAY 10
+#define MATRIX_IO_READ_DELAY 15
+#define MATRIX_IO_CLEAR_DELAY 15
 
 #define COL_SHIFTER ((uint16_t)1)
 

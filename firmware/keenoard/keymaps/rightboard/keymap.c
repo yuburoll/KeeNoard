@@ -40,6 +40,18 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,          QK_RBT,         QK_BOOT,        KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO, 
                                         KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS),
 };
+
+bool get_permissive_hold(uint16_t keycode, keyrecord_t *record) {
+    switch (keycode) {
+        case RSFT_T(KC_J):
+            return true;
+        case LSFT_T(KC_F):
+            return true;
+        default:
+            return false;
+    }
+}
+
 // put encoder map "reversed"
 #if defined(ENCODER_MAP_ENABLE)
 const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][2] = {
@@ -51,10 +63,8 @@ const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][2] = {
     [5] = { ENCODER_CCW_CW(MS_WHLU, MS_WHLD),  ENCODER_CCW_CW(KC_NO, KC_NO)  },
     [6] = { ENCODER_CCW_CW(MS_WHLU, MS_WHLD),  ENCODER_CCW_CW(KC_NO, KC_NO)  },
 };
-
 #endif
 
 #ifdef OTHER_KEYMAP_C
 #    include OTHER_KEYMAP_C
 #endif // OTHER_KEYMAP_C
-
