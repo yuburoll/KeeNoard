@@ -6,7 +6,7 @@
 
 Inspired by the former great [-Cheapino-](https://github.com/tompi/cheapino) this uses only one board and [Japanese duplex matrix](https://kbd.news/The-Japanese-duplex-matrix-1391.html), controlled ghosting with three PNP transistor and active-high matrix.
 
-Default keymap uses customized [Miryoku](https://github.com/manna-harbour/miryoku) - with slight different mouse and navigator keys.
+Default keymap uses customized [Miryoku](https://github.com/manna-harbour/miryoku) - with slight different mouse and navigator keys. Two center keys are mapped to Y and B, which are originally intended.
 
 
 
