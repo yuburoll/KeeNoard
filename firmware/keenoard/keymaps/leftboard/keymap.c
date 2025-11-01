@@ -43,20 +43,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 bool get_permissive_hold(uint16_t keycode, keyrecord_t *record) {
     switch (keycode) {
-        case LT(2,KC_ENT):
-            return true;
-        case LT(3,KC_BSPC):
-            return true;
-        default:
-            return false;
-    }
-}
-
-bool get_hold_on_other_key_press(uint16_t keycode, keyrecord_t *record) {
-    switch (keycode) {
         case RSFT_T(KC_J):
             return true;
         case LSFT_T(KC_F):
+            return true;
+        case LT(2,KC_ENT):
+            return true;
+        case LT(3,KC_BSPC):
             return true;
         default:
             return false;
