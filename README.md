@@ -2,9 +2,11 @@
 
 # KeeNoard
 
-**KeeNoard**(name intended typo between B and N) is 38-key split keyboard with rotary encoder and multiple center key.
+**KeeNoard**(name intended typo between B and N) is 38-key split keyboard with rotary encoder and multiple center key, with only one rp2040 zero board.
 
-Inspired by the former great [-Cheapino-](https://github.com/tompi/cheapino) this uses only one board and [Japanese duplex matrix](https://kbd.news/The-Japanese-duplex-matrix-1391.html), controlled ghosting with three PNP transistor and active-high matrix.
+Inspired by the former great [Cheapino](https://github.com/tompi/cheapino) this uses only one board and [Japanese duplex matrix](https://kbd.news/The-Japanese-duplex-matrix-1391.html), controlled ghosting with three PNP transistor and active-high matrix.
+
+Default keymap uses customized [Miryoku](https://github.com/manna-harbour/miryoku) - with slight different mouse and navigator keys. Two center keys are mapped to Y and B, which are originally intended.
 
 
 
@@ -34,7 +36,11 @@ Inspired by the former great [-Cheapino-](https://github.com/tompi/cheapino) thi
 
 work in progress. sorry!
 
-You can see the images in the folder, which uploaded for build guides.
+You can see the images in the folder, which uploaded for build guides. Especially you may see how to solder the controller board, because this uses surface mounting by castelated pins.
+
+Images are captured with prototype version PCB, which is different from the current gerber. current gerber has SMD transistor soldering pads on the protype's label position, and is more easy to solder controller board with larger soldering pads.
+
+This uses [qmk](https://qmk.fm/) to build the firmware. Copy "keenoard" folder which is in "firmware" directory to "qmk_firmware\keyboards" folder, and build it via qmk msys. Also, I'm working on the vial version.
 
 
 
