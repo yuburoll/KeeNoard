@@ -55,6 +55,18 @@ bool get_permissive_hold(uint16_t keycode, keyrecord_t *record) {
             return false;
     }
 }
+
+uint16_t get_quick_tap_term(uint16_t keycode, keyrecord_t *record) {
+    switch (keycode) {
+        case RSFT_T(KC_J):
+            return QUICK_TAP_TERM - 120;
+        case LSFT_T(KC_F):
+            return QUICK_TAP_TERM - 120;
+        default:
+            return QUICK_TAP_TERM;
+    }
+}
+
 #if defined(ENCODER_MAP_ENABLE)
 const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][2] = {
     [0] = { ENCODER_CCW_CW(KC_LEFT, KC_RGHT),  ENCODER_CCW_CW(MS_WHLD, MS_WHLU)  },
