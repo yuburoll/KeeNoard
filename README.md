@@ -40,7 +40,11 @@ You can see the images in the folder, which uploaded for build guides. Especiall
 
 Images are captured with prototype version PCB, which is different from the current gerber. current gerber has SMD transistor soldering pads on the protype's label position, and is more easy to solder controller board with larger soldering pads.
 
-This uses [qmk](https://qmk.fm/) to build the firmware. Copy "keenoard" folder which is in "firmware" directory to "qmk_firmware\keyboards" folder, and build it via qmk msys. Also, I'm working on the vial version.
+This uses [qmk](https://qmk.fm/) to build the firmware. Copy "keenoard" folder which is in "firmware" directory to "qmk_firmware\keyboards" folder, and build it via qmk msys.
+
+Or, simply flash uf2 in "uf2Examples" folder by changing rp2040 zero in dfu mode, which can be executed by holding boot button while plugging in usb c.
+
+Also, I'm working on the vial version.
 
 
 
