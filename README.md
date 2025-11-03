@@ -42,9 +42,7 @@ Images are captured with prototype version PCB, which is different from the curr
 
 This uses [qmk](https://qmk.fm/) to build the firmware. Copy "keenoard" folder which is in "firmware" directory to "qmk_firmware\keyboards" folder, and build it via qmk msys.
 
-Or, simply flash uf2 in "uf2Examples" folder by changing rp2040 zero in dfu mode, which can be executed by holding boot button while plugging in usb c.
-
-Also, I'm working on the vial version.
+Or, simply flash uf2 in "uf2Examples" folder by changing rp2040 zero in dfu mode, which can be executed by holding boot button while plugging in usb c. Vial versions are also prepared - use proper vial firmware, depending on where you placed the controller board.
 
 
 
