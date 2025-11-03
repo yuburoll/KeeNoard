@@ -5,7 +5,7 @@
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT_leftboard(
-        LALT_T(KC_Q),       KC_W,           KC_E,           KC_R,           KC_T,                                       KC_Y,           KC_U,           KC_I,           KC_O,           KC_SCLN, 
+        LALT_T(KC_Q),       KC_W,           KC_E,           KC_R,           KC_T,                                       KC_Y,           KC_U,           KC_I,           KC_O,           KC_B, 
         LSFT_T(KC_A),       LALT_T(KC_S),   LCTL_T(KC_D),   LSFT_T(KC_F),   KC_G,                                       KC_H,           RSFT_T(KC_J),   LCTL_T(KC_K),   LALT_T(KC_L),   KC_P, 
         LCTL_T(KC_Z),       KC_X,           KC_C,           KC_V,           KC_B,         LGUI_T(KC_Y), LGUI_T(KC_B),   KC_N,           KC_M,           RALT_T(KC_COMM),RCTL_T(KC_DOT), RSFT_T(KC_SLSH), 
                                             KC_CAPS,        LT(6,KC_ESC),   LT(4,KC_SPC), LT(5,KC_TAB), LT(2,KC_ENT),   LT(3,KC_BSPC),  LT(1,KC_DEL),   KC_RALT),
@@ -13,11 +13,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_F12,         KC_F7,          KC_F8,          KC_F9,          KC_PSCR,                                          KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO, 
         KC_F11,         KC_F4,          KC_F5,          KC_F6,          KC_SCRL,                                           KC_NO,          KC_LSFT,        KC_LCTL,        KC_LALT,        KC_NO, 
         KC_F10,         KC_F1,          KC_F2,          KC_F3,          KC_BRK,         KC_NO,          KC_LGUI,         KC_NO,          KC_NO,          KC_NO,          KC_NO,            KC_NO, 
-                                        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS),
+                                        KC_TRNS,        KC_TRNS,        KC_SCLN,        S(KC_SCLN),     KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS),
     [2] = LAYOUT_leftboard(
-        S(KC_LBRC),     S(KC_7),         S(KC_8),        S(KC_9),      S(KC_RBRC),                                           KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO, 
-        S(KC_QUOT),     S(KC_4),         S(KC_5),        S(KC_6),      S(KC_EQL),                                          KC_NO,          KC_LSFT,        KC_LCTL,        KC_LALT,        KC_NO, 
-        S(KC_GRV),      S(KC_1),         S(KC_2),        S(KC_3),      S(KC_BSLS),      KC_NO,          KC_LGUI,          KC_NO,          KC_NO,          KC_NO,          KC_NO,            KC_NO, 
+        S(KC_LBRC),     S(KC_7),        S(KC_8),        S(KC_9),      S(KC_RBRC),                                           KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO, 
+        S(KC_QUOT),     S(KC_4),        S(KC_5),        S(KC_6),      S(KC_EQL),                                          KC_NO,          KC_LSFT,        KC_LCTL,        KC_LALT,        KC_NO, 
+        S(KC_GRV),      S(KC_1),        S(KC_2),        S(KC_3),      S(KC_BSLS),      KC_NO,          KC_LGUI,          KC_NO,          KC_NO,          KC_NO,          KC_NO,            KC_NO, 
                                         KC_TRNS,        S(KC_9),       S(KC_0),         S(KC_MINS),     KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS),
     [3] = LAYOUT_leftboard(
         KC_LBRC,        KC_7,           KC_8,           KC_9,           KC_RBRC,                                          KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO, 
