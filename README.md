@@ -14,7 +14,7 @@ Default keymap uses customized [Miryoku](https://github.com/manna-harbour/miryok
 
 - 1x rp2040 zero (boards formly created by waveshare) (Approx. 2$)
 
-- 2x KeeNoard PCB Boards (9$ on JLC w/o shipping cost)
+- 2x KeeNoard PCB Boards (5 boards are 9$ on JLC w/o shipping cost)
 
 - 1x printed case sets, which you want to make it (Approx. 8~12$ if you buy printed one)
 
