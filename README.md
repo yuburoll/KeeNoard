@@ -12,23 +12,27 @@ Default keymap uses customized [Miryoku](https://github.com/manna-harbour/miryok
 
 ## Preparation
 
-- 1x rp2040 zero (boards formly created by waveshare)
+- 1x rp2040 zero (boards formly created by waveshare) (Approx. 2$)
 
-- 2x KeeNoard PCB Boards
+- 2x KeeNoard PCB Boards (9$ on JLC w/o shipping cost)
 
-- 1x printed case sets, which you want to make it
+- 1x printed case sets, which you want to make it (Approx. 8~12$ if you buy printed one)
 
-- 6x TO-18 PNP transistors, or 6x SOT-23 PNP transistors.
+- 6x TO-18 PNP transistors, or 6x SOT-23 PNP transistors. (Approx. 1~2$)
 
-- 50x diodes
+- 50x diodes (Approx. 1$)
 
-- 2x EC11 encoders and cap
+- 2x EC11 encoders and cap (Approx. 2$)
 
-- 14x M2x6 screws, flathead
+- 14x M2x6 screws, flathead (Approx. 1$)
 
-- 1x RJ45 cable
+- 1x RJ45 cable (Approx. 3$)
 
-- 2x RJ45 connector, in 18mm
+- 2x RJ45 connector, in 18mm (Approx. 1$)
+
+- 38x Keyswitches & Keycaps (Maybe this costs varies too much. 15$ on average)
+
+Approx. 28$-33$(w/o shipping cost) needed to build one
 
 
 
